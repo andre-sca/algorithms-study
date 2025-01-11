@@ -18,4 +18,9 @@ def longestConsecutive(nums: List[int]) -> int:
             longest = max(length, longest)
     return longest
 
-print(longestConsecutive([2,20,4,10,3,4,5]))
+
+print(longestConsecutive([2, 20, 4, 10, 3, 4, 5]))
+
+# Time complexity: O(n)
+
+# Space complexti: 0(n)
