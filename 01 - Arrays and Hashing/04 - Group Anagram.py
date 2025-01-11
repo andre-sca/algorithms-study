@@ -21,6 +21,7 @@ def groupAnagramsSort(strs: List[str]) -> List[List[str]]:
 # Space complexity: O(n * m)
 
 
+# Hash
 def groupAnagrams(strs: List[str]) -> List[List[str]]:
     res = defaultdict(list)
     for s in strs:

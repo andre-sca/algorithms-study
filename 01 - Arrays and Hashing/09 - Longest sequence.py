@@ -6,6 +6,7 @@ The elements do not have to be consecutive in the original array."""
 from typing import List
 
 
+# Hash set
 def longestConsecutive(nums: List[int]) -> int:
     numSet = set(nums)
     longest = 0

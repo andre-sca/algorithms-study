@@ -9,6 +9,7 @@ Return the answer with the smaller index first.
 from typing import List
 
 
+# Brute force
 def twoSumBrute(nums: List[int], target: int) -> List[int]:
     for i in range(len(nums)):
         for j in range(i + 1, len(nums)):
@@ -21,6 +22,7 @@ def twoSumBrute(nums: List[int], target: int) -> List[int]:
 # Space complexity: O(1)
 
 
+# My own brute force
 def twoSumTwoPersonalBrute(nums: List[int], target: int):
     for i, n in enumerate(nums):
         diff = target - n
@@ -32,6 +34,7 @@ def twoSumTwoPersonalBrute(nums: List[int], target: int):
 # Space complexity: O(1)
 
 
+# One Pass, hash
 def twoSumOnePass(nums: List[int], target: int):
     indices = {}
 

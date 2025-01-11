@@ -5,6 +5,7 @@ Each product is guaranteed to fit in a 32-bit integer.
 """
 
 
+# Prefix and Suffix
 def productExceptSelf(nums):
     n = len(nums)
     output = [1] * n  # Initialize output array with 1s

@@ -11,6 +11,7 @@ from collections import defaultdict
 from typing import List
 
 
+# Hash?
 def isValidSudoku(board: List[List[str]]) -> bool:
     cols = defaultdict(set)
     rows = defaultdict(set)
