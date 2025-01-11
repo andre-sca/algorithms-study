@@ -28,5 +28,5 @@ def threeSum(nums: List[int]) -> List[List[int]]:
                     l += 1
     return res
 
-print(threeSum([-1,0,1,2,-1,-4]))
 
+print(threeSum([-1, 0, 1, 2, -1, -4]))

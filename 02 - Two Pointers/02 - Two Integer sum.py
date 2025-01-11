@@ -19,4 +19,5 @@ def twoSum(numbers: List[int], target: int) -> List[int]:
         else:
             return [l + 1, r + 1]
 
-print(twoSum([1,2,3,4], 3))
+
+print(twoSum([1, 2, 3, 4], 3))

@@ -19,5 +19,5 @@ def maxArea(heights: List[int]) -> int:
             r -= 1
     return res
 
-print(maxArea([1,7,2,5,4,7,3,6]))
 
+print(maxArea([1, 7, 2, 5, 4, 7, 3, 6]))
