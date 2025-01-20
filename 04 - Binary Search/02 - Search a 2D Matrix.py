@@ -1,3 +1,13 @@
+"""
+You are given an m x n 2-D integer array matrix and an integer target.
+
+Each row in matrix is sorted in non-decreasing order.
+The first integer of every row is greater than the last integer of the previous row.
+Return true if target exists within matrix or false otherwise.
+
+Can you write a solution that runs in O(log(m * n)) time?
+"""
+
 from typing import List
 
 
@@ -31,3 +41,7 @@ def searchMatrix(matrix: List[List[int]], target: int) -> bool:
 
 
 print(searchMatrix([[1, 3, 5, 7], [10, 11, 16, 20], [23, 30, 34, 60]], target=3))
+
+# Time complexity: O(log m + log n)
+
+# Space complexity: O(1)

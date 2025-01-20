@@ -19,3 +19,7 @@ def search(nums: List[int], target: int) -> int:
         else:
             return m
     return -1
+
+# Time complexity: O(log n)
+
+# Space complexity: O(1)
