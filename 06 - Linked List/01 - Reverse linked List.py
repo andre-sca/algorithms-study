@@ -10,16 +10,19 @@ class ListNode:
         self.val = val
         self.next = next
 
+
 def create_linked_list(values):
     head = None
     for value in reversed(values):
         head = ListNode(value, head)
     return head
 
+
 def print_linked_list(head):
     while head:
         print(head.val, end=" -> " if head.next else "\n")
         head = head.next
+
 
 def reverseListIterative(head: Optional[ListNode]) -> Optional[ListNode]:
     prev, curr = None, head
